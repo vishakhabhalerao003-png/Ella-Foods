@@ -5,11 +5,643 @@
 			Ella Foods
 		</title>
 		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+		
 		<style>
+		body {
+			margin:0%;
+			padding:0;
+			background-color:#F1F1F1
+		}
+		
+		* {
+			color:grey;
+			box-sizing:border-box
+		}
+		
+		marquee, small{
+			background-color:orange;
+			height:33px;
+			font-size:20px;
+			color:white;
+		}
+		
+		.icon {
+			width:58px;
+			margin:0% 5% 1% 2%;
+			float:left 
+		}
+		
+		a, span {
+			float:left;
+			text-decoration:none;
+			font-size:18px;
+			margin:2% 1%
+		}
+		
+		nav > i {
+			font-size:22px;
+			float:left;
+			margin:25px 0px 23px 29px;
+		}
+		
+		.banner {
+			width:100%
+		}
+		
+		section > figure {	
+			float:left;
+			width:10%;
+			margin:10px 15px 8px 15px;
+			text-align:center
+		}
+		
+		.menu {
+			border-radius:50px;
+		}	
+		
+		.sec1 {
+			margin:15% 1%;
+		}
+		
+		.sec1span {
+			margin:1%;
+			color:black;
+			float:left
+		}
+		
+		.sec1span2 {
+			margin:1%;
+			float:left
+		}
+		
+		.sec1span3 {
+			margin:1% 1% 1% 54%;
+			color:black;
+			float:left
+		}
+		
+		.sec1span4 {
+			margin:1%;
+			float:left
+		}
+		
+		.num {
+			margin:3% 44%;
+			text-align:center;
+			font-size:23px;
+			float:left;
+			background-color:white
+		}
+		
+		.main2 {
+			width:100%; 
+			margin:25% 0% 1% 0%;
+			
+		}
+		
+		.main2 > figure {
+			width:23%;
+			background-color:white; 
+			border-radius:5px; 
+			margin:1%; 
+		}
+		
+		.main2 figure > img {
+			width:100%;
+			border-radius:5px; 
+		}
+		
+		.main2 figure > figcaption {
+			font-size:20px;
+			padding:8%;
+			text-align:left;
+		}
+		
+		.price {
+			font-size:18px;
+			float:left;
+			margin:8px 3px;
+		}
+		
+		.from {
+			color:#702B40;
+			float:left;
+			margin:8px 3px;
+			font-size:22px;
+		}
+		
+		.off {
+			color:green;
+			float:left;
+			margin:10px 3px;
+		}
+		
+		.opt {
+			color:white; 
+			background-color:#702B40; 
+			border-radius:10px; 
+			margin-top:22%; 
+			padding:10px;
+			text-align:center;
+		}
+		
+		.optsold {
+			color:white; 
+			background-color:grey; 
+			border-radius:10px; 
+			margin-top:22%; 
+			padding:10px;
+			text-align:center;
+		}
+		
+		.lastdiv {
+			background-color:white; 
+			width:100%; 
+			padding:3%;
+		}
+		
+		.Queries{
+			font-size:18px;
+			text-align:center;
+			padding-top:1%
+		}
+		
+		.chat{
+			font-size:38px;
+			text-align:center;
+			color:#702B40;
+			margin:1% 0%
+		}
+		
+		.wassup{
+			font-size:25px;
+			text-align:center;
+			border-radius:10px;
+			background-color:green;
+			width:18%;
+			color:white;
+			margin:1% 41%;
+			padding:1% 0%
+		}
+		
+		.pagination {
+			text-align:center;
+			margin:12% 43%;
+		}
+
+		.pagination a {
+			display:inline-block;
+			text-decoration:none;
+			color:#555;
+			background-color:#F7F7F7;
+			padding:15px 20px;
+			margin:0% 3px;
+			border-radius:6px;
+			font-size:14px;
+		}
+
+		footer {
+			background-color:#702B40;
+			width:100%;
+			float:left;
+			padding:3% 0%;
+		}
+
+		footer > img {
+			width:48px;
+			float:left;
+			margin:3% 8%;
+		}
+
+		.customer {
+			width:57%;
+			float:left;
+		}
+
+		.quick {
+			width:15%;
+			float:left;
+		}
+
+		.wid {
+			width:100%
+		}
+		
+		footer div > h3 {
+			color:white;
+			font-size:20px;
+			margin:3% 0%;
+		}
+
+		footer div > p {
+			color:#F1F1F1;
+			font-size:17px;
+			margin:2% 0%;
+			}
+
+		.quick > p {
+			margin:8% 0%;
+		}
+		
+		.last {
+			text-align:center; 
+			float:left; 
+			margin:1% 45%
+		}
 		
 		</style>
 	</head>
 	<body>
-	
+		<marquee>
+				<small>• FREE SHIPPING ON ALL PREPAID ORDERS | COD AVAILABLE</small>
+				<small>• FREE SHIPPING ON ALL PREPAID ORDERS | COD AVAILABLE</small>
+				<small>• FREE SHIPPING ON ALL PREPAID ORDERS | COD AVAILABLE</small>
+			</marquee>
+		<header>
+			<img class ="icon" src="https://www.ellafoods.in/cdn/shop/files/Copy_of_Ella_Foods_Logo.png?v=1715055320&width=90">
+			
+			<nav>
+				<a href="https://www.ellafoods.in/pages/about">About Us</a>
+				<a href="https://www.ellafoods.in/collections">Shop ALL</a>
+				<a href="https://www.ellafoods.in/collections/gift-boxes">Gifting</a>
+				<span id="Category">Shop by Category<i class="ri-arrow-down-wide-line"></i></span>
+				<span id="Category">Shop by Health<i class="ri-arrow-down-wide-line"></i></span>
+				<span id="Category">Shop Combos<i class="ri-arrow-down-wide-line"></i></span>
+				<a href="https://www.ellafoods.in/collections/ella-fresh">Ella Fresh</a>
+				<a href="https://www.ellafoods.in/blogs/news">Blogs</a>
+				<a href="https://www.ellafoods.in/pages/contact-us">Contact</a>
+				
+				<i class="ri-search-line"></i>
+				<i class="ri-user-line"></i>
+				<i class="ri-shopping-bag-2-line"></i>
+			</nav>
+		</header>
+		
+		<main>
+			<img class="banner" src="IMAGES\Screenshot 2026-11-17 092824.png">
+			<section>
+				<figure>
+					<img src="IMAGES\Screenshot 2026-11-17 103600.png" class="menu">
+						<figcaption>
+							<b>All Products</b>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="IMAGES\Screenshot 2026-11-17 103609.png" class="menu">
+						<figcaption>
+							<b>Seasonings</b>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="IMAGES\Screenshot 2026-11-17 104908.png" class="menu">
+						<figcaption>
+							<b>Ready-to-eat</b>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="IMAGES\Screenshot 2026-11-17 104916.png" class="menu">
+						<figcaption>
+							<b>Ready to eat- Buy Now</b>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="IMAGES\Screenshot 2026-11-17 104924.png" class="menu">
+						<figcaption>
+							<b>Millet</b>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="IMAGES\Screenshot 2026-11-17 104929.png" class="menu">
+						<figcaption>
+							<b>Pickles</b>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="IMAGES\Screenshot 2026-11-17 104937.png" class="menu">
+						<figcaption>
+							<b>Spices</b>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="IMAGES\Screenshot 2026-11-17 104941.png" class="menu">
+						<figcaption>
+							<b>Herbs</b>
+						</figcaption>
+				</figure>
+			</section>
+			
+			
+			<section class="sec1" >
+				<span class="sec1span">
+					Filter: 
+				</span>
+				
+				<span class="sec1span2">
+					Availability
+					<i class="ri-arrow-down-wide-line"></i>
+				</span>
+				
+				<span class="sec1span2">
+					Price
+					<i class="ri-arrow-down-wide-line"></i>
+				</span>
+			
+				<span class="sec1span3">
+					Sort by: 
+				</span>
+				
+				<span class="sec1span4">
+					Featured
+					<i class="ri-arrow-down-wide-line"></i>
+				</span>
+				
+				<span class="sec1span4">
+					20 Products
+				</span>
+			
+			</section>
+			
+			<section class="main2">
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Ella_foods_Ready-to-Eat_Instant_Poha_65g-Combo_Pack_7.png?v=1790586949&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹142</del> 
+								<b>
+									<span class="from">From ₹135</span> 
+									<span class="off">4% Off</span>
+								</b>
+							</div>
+							
+							<div class="opt">
+								CHOOSE OPTIONS
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Ella_foods_Ready-to-Eat_Instant_Upma_65g-Combo_Pack_7.png?v=1790587774&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹170</del> 
+								<b>
+									<span class="from">From ₹85 </span> 
+									<span class="off">50% Off</span>
+								</b>
+							</div>
+							 
+							<div class="opt">
+								CHOOSE OPTIONS
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Tangy_Millet_Poha_80g-01_9597e6b5-bd04-445f-aa2a-8f645c1dd078.jpg?v=1770795361&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹196</del> 
+								<b>
+									<span class="from">From ₹98 </span> 
+									<span class="off">50% Off</span>
+								</b>
+							</div>
+							
+							<div class="opt">
+								CHOOSE OPTIONS
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Millet_Sweet_Pongal_65g-01.jpg?v=1770448617&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹497</del> 
+								<b>
+									<span class="from">From ₹135</span> 
+									<span class="off">4% Off</span>
+								</b>
+							</div>
+							
+							<div class="opt">
+								CHOOSE OPTIONS
+							</div>
+						</figcaption>
+				</figure>
+			</section>
+			
+			
+			<section class="main2">
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Millet_Khara_Pongal_65g-01.jpg?v=1770795292&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹142</del> 
+								<b>
+									<span class="from">From ₹57</span> 
+									<span class="off">59% Off</span>
+								</b>
+							</div>
+							
+							<div class="opt">
+								CHOOSE OPTIONS
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Tangy_Millet_Poha_80g-01-Pack_of_2_39f6d038-b2e5-4bdd-af8c-b24c8a433cf6.jpg?v=1770866890&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<b>
+									<span class="from">₹199 </span> 
+								</b>
+							</div>
+							 
+							<div class="opt">
+								ADD TO CART
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Millet_Khara_Pongal_65g-01-Pack_of2.jpg?v=1770795030&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹196</del> 
+								<b>
+									<span class="from">From ₹98 </span> 
+									<span class="off">50% Off</span>
+								</b>
+							</div>
+							
+							<div class="opt">
+								ADD TO CART
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Millet_Sweet_Pongal_65g-01-Pack_of_2_ed7dc144-1e1f-46de-8186-91577102d626.jpg?v=1770803663&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹497</del> 
+								<b>
+									<span class="from">From ₹135</span> 
+									<span class="off">4% Off</span>
+								</b>
+							</div>
+							
+							<div class="opt">
+								ADD TO CART
+							</div>
+						</figcaption>
+				</figure>
+			</section>
+			
+			<section class="main2">
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/KharaPongalSweetPongalandInstantUpma-01.jpg?v=1770786871&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹227</del> 
+								<b>
+									<span class="from"> ₹114 </span> 
+									<span class="off">50% Off</span>
+								</b>
+							</div>
+							
+							<div class="opt">
+								ADD TO CART
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/Updated_RTE_Combos-09_e877d35d-6ffe-4a6a-9a8a-fe9ea4ded4d5.jpg?v=1746612876&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<b>
+									<span class="from">₹249</span> 
+								</b>
+							</div>
+							 
+							<div class="opt">
+								ADD TO CART
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/TangyMilletPohaInstantPohaKesariHalwa-01.jpg?v=1770789106&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹196</del> 
+								<b>
+									<span class="from">₹254</span> 
+									<span class="off">41% Off</span>
+								</b>
+							</div>
+							 
+							<div class="optsold">
+								SOLD OUT
+							</div>
+						</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="https://www.ellafoods.in/cdn/shop/files/TangyMilletPohaInstantUpmaInstantPoha-01.jpg?v=1770790251&width=493">
+						<figcaption>
+							<b>Ella Foods Probiotic Instant Poha | 65g | Ready-to-Eat Meal | Shelf Life : 6 Months</b>
+							<br>
+							<div class="cap">
+								<del class="price">₹254</del> 
+								<b>
+									<span class="from">₹127</span> 
+									<span class="off">50% Off</span>
+								</b>
+							</div>
+							
+							<div class="opt">
+								ADD TO CART
+							</div>
+						</figcaption>
+				</figure>
+			</section>
+			<div class="pagination">
+				<a style="background-color:#702B40; color:white" href="https://www.ellafoods.in/collections/ready-to-eat?utm_source=google+ads+-+add+to+cart&utm_medium=google+ads+-+add+to+cart+++-+Instant+poha&utm_id=P.Max+campaign+&gad_source=1&gad_campaignid=22260619385&gbraid=0AAAAABcLNr7KDXezApSHilrsVGDrnXkw6&gclid=Cj0KCQiA8OrXBhDEARIsAECtlx7Hh3hrMfI7VSEjRFCHKQPeUFFdBiJ0Vl_TGosUFEouBXdBQx6pVTkaAvKGEALw_wcB">1</a>
+				<a href="https://www.ellafoods.in/collections/ready-to-eat?page=2">2</a>
+				<a href="https://www.ellafoods.in/collections/ready-to-eat?page=2">Next</a>
+			</div>
+			
+			<img  class="wid" src="https://www.ellafoods.in/cdn/shop/files/End_Banner_-_Copy.jpg?v=1718858409">
+			
+			<div class="lastdiv">
+				<b><div class="Queries">Have Queries?</div>
+
+				<div class="chat">Chat With Our Team</div>
+				<div class="wassup">Whatsapp Now</div></b>
+			</div>	
+		</main>
+		<footer>
+			<img src="https://www.ellafoods.in/cdn/shop/files/Ella-Foods-White-Logo.png?v=1715065717&width=100">
+
+			<div class="customer">
+				<h3>Customer Service</h3>
+
+				<p>You are our priority, We strive to take care of all our customers' requests in 48hrs or less.</p>
+
+				<p>Email: mktg@ellafoods.in</p>
+
+				<p>Address: Plot B-11, Innova Agri Bio Park, KIADB industrial area, phase III, Malur Taluk, Kolar, Karnataka, India, 563130</p>
+
+				<p>Phone No: +91 6366971162</p>
+			</div>
+			
+			<div class="quick">
+				<h3>Quick links</h3>
+				<p>Privacy Policy</p>
+				<p>Terms Of Service</p>
+				<p>Refund Policy</p>
+				<p>Shipping Policy</p>
+				<p>Blogs</p>
+				
+			</div>
+			
+			<div class="last">
+				© 2026, Ella Foods
+			</div>
+		</footer>
 	</body>
 </html>
